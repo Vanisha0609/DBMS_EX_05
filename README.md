@@ -112,20 +112,22 @@ WHERE city <> (
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/83c48858-05d6-4b94-b20a-51970c3d8f79)
 
 ## QUESTION 6:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/2215e440-6879-4b7d-98b5-ea69b6b3e585)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/6b634c47-d0d0-4d75-98f5-b52d928a4615)
 
 ## QUERY:
 ```
-SELECT department_id AS depar, department_name
-FROM Departments
-WHERE LENGTH(department_name) > (
-    SELECT AVG(LENGTH(department_name))
-    FROM Departments
-);
+SELECT ord_no,purch_amt,ord_date,customer_id,salesman_id
+FROM orders
+WHERE 
+    purch_amt > (
+        SELECT AVG(purch_amt)
+        FROM orders
+        WHERE ord_date = '2012-10-10'
+    );
 
 ```
 ## OUTPUT:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/4ed83e6d-e29c-405d-bb65-e16b225558ce)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/fd921b32-1735-4886-94fc-90ebf966ac3e)
 
 ## QUESTION 7:
 ![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/a15435c4-2ee5-4481-b73e-ffd6407b3ffa)
