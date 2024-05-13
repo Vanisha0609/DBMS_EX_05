@@ -37,7 +37,9 @@ DROP VIEW ;
 
 # MODULE:
 ## QUESTION 1:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/31af9575-d55c-4069-a506-daea2c400a2c)
+
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/327b3f6d-a286-41d7-a9b1-db81aba11ab1)
+
 
 ## QUERY:
 ```
@@ -50,7 +52,7 @@ WHERE city in (SELECT city FROM customer WHERE id in (3,7))
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/58316719-b5fc-418d-9242-c1ab8e9b53b9)
 
 ## QUESTION 2:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/d26ad1f9-2172-4192-b724-8dc47c3177a9)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/b8f4bfaa-7f93-4d64-9a0e-8b59fee87a09)
 
 ## QUERY:
 ```
@@ -79,7 +81,7 @@ JOIN MinGrades mg ON g.subject = mg.subject AND g.grade = mg.min_grade;
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/75b71a73-f095-4030-adef-1bd46314be0a)
 
 ## QUESTION 4:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/268b27a8-b823-4f91-8646-c206b3b59a81)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/ba9bd9c8-6141-4079-a3f2-09b170c00eff)
 
 ## QUERY:
 ```
@@ -93,7 +95,7 @@ WHERE customer_id=(SELECT salesman_id -2001
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/b1e3d9ee-137d-4665-ae66-98061e1fa0f8)
 
 ## QUESTION 5:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/19d0f893-b207-4f81-b1ac-081397649d8c)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/6d690ca8-6098-4a28-bc6b-8e1b0acc2c5a)
 
 ## QUERY:
 ```
@@ -126,7 +128,7 @@ WHERE LENGTH(department_name) > (
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/4ed83e6d-e29c-405d-bb65-e16b225558ce)
 
 ## QUESTION 7:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/5a9fb421-6f33-4474-ab62-3388f5fea754)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/a15435c4-2ee5-4481-b73e-ffd6407b3ffa)
 
 ## QUERY:
 ```
@@ -143,7 +145,7 @@ WHERE age < (
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/8ea61ac2-8002-42e1-b535-60df2b3d557b)
 
 ## QUESTION 8:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/553affc4-d9ce-4911-be6c-30353a41cc53)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/1274fd53-04d5-4faa-809d-3f1a7cb16545)
 
 ## QUERY:
 ```
@@ -160,7 +162,7 @@ WHERE age < (
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/7846e8f5-158a-4713-818c-dc4ed311066a)
 
 ## QUESTION 9:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/3e9c4b45-9828-4795-beda-b7ced0b6696e)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/1f9b0462-204e-4b28-8a77-b913e820c90a)
 
 ## QUERY:
 ```
@@ -176,7 +178,7 @@ WHERE NOT EXISTS (
 ![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/2cbb5abb-a9d0-48bb-b553-331a202d0a93)
 
 ## QUESTION 10:
-![image](https://github.com/Mena-Rossini/DBMS_EX_05/assets/102855266/58eb9f94-3b0a-4a13-971f-d52e0163983a)
+![image](https://github.com/Vanisha0609/DBMS_EX_05/assets/119104009/4cf1caa0-7a50-4b87-ab85-8fe1f5b380af)
 
 ## QUERY:
 ```
